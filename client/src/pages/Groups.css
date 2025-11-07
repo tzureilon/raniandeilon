@@ -1,0 +1,26 @@
+.groups-page {
+  padding: 30px;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.coming-soon h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.coming-soon .hint {
+  font-size: 1rem;
+  color: #999;
+  font-style: italic;
+}
