@@ -159,7 +159,7 @@ export class FbPublisherModule {
         `UPDATE posts
          SET status = 'failed', error_message = $1
          WHERE id = $2`,
-        [error.message, postId]
+        [(error as Error).message, postId]
       );
 
       return false;
